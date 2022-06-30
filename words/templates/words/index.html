@@ -1,0 +1,18 @@
+<html>
+
+<body>
+
+<h4>单词列表</h4>
+<a href="./temp">点击跳转到详情列表</a>
+<table border="1">
+  <tr>
+    <th>单词</th>
+  </tr>
+
+  {% for word in word_list %}
+    <tr><td>{{ word }}</td></tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>
